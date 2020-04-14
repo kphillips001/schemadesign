@@ -16,3 +16,14 @@ Guided project **DB II** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor explores schema design with this API.
+
+## Add fruits table
+
+Create a new migration to add the `fruits` table to the database. The schema for the table is:
+
+- an `id` as the primary key, make it autoincrement.
+- a `name` column that is a string, make it be unique and have a max lenght of 128 characters. It is required.
+- a `avgWeightOz` column that stores **decimal** values.
+- a `delicios` column that can store `true` or `false` values. Make it default to `true`.
+
+Run the migration when done.
